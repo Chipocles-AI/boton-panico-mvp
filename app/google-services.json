@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321200138272",
+    "project_id": "boton-panico-mvp",
+    "storage_bucket": "boton-panico-mvp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321200138272:android:2ecfe5279180ff3adb7445",
+        "android_client_info": {
+          "package_name": "com.hector.curiel.technology.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC04hTFc9ZHU1Wi0ea0v_WLCTS0v_tGR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

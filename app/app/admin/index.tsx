@@ -80,10 +80,10 @@ export default function AdminScreen() {
     try {
       const token = await registerAdminDeviceForPush();
       Alert.alert("✅ Push activado", `Token registrado.\n${token.substring(0, 18)}...`);
-    } catch (e: any) {
-      Alert.alert("Error", e?.message ?? "No se pudo activar push.");
-    }
-  }}
+  } catch (e: any) {
+    Alert.alert("Error", e?.message ?? "No se pudo activar push.");
+  }
+}}
 >
   <Text style={styles.pushBtnText}>Activar notificaciones (Admin)</Text>
 </Pressable>
